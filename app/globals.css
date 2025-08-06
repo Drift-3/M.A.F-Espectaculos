@@ -1,9 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,600;0,800;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 @import "tailwindcss";
+
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
+
+/* Scroll personalizado horizontal en color azul */
+.custom-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #3B82F6; /* Azul Tailwind 500 */
+  border-radius: 9999px;
+  border: 2px solid black;
+}
+
+/* Para Firefox */
+.custom-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #3B82F6 transparent;
+}
+
+.font-rubik {
+  font-family: 'Rubik', sans-serif;
+}
+.font-bebas {
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+
+
+
 
 @theme inline {
   --color-background: var(--background);

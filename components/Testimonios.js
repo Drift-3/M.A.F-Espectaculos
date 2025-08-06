@@ -1,21 +1,30 @@
-const Testimonios = () => (
-  <section className="bg-white text-black py-12 px-4">
-    <h2 className="text-3xl font-bold text-center mb-8">Testimonios</h2>
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-      <blockquote className="border p-4 rounded-md shadow">
-        <p>"¡Increíble show! Fue el alma de la fiesta."</p>
-        <cite className="text-sm text-gray-500">– Cliente feliz</cite>
-      </blockquote>
-      <blockquote className="border p-4 rounded-md shadow">
-        <p>"Sonaron como si fueran una banda de concierto profesional."</p>
-        <cite className="text-sm text-gray-500">– Invitado</cite>
-      </blockquote>
-      <blockquote className="border p-4 rounded-md shadow">
-        <p>"Mi evento no hubiera sido lo mismo sin ellos."</p>
-        <cite className="text-sm text-gray-500">– Organizador</cite>
-      </blockquote>
-    </div>
-  </section>
-);
+const testimonios = [
+  { src: "/img/test1.jpg", alt: "Comentario de cliente 1" },
+  { src: "/img/test2.jpg", alt: "Comentario de cliente 2" },
+  { src: "/img/test3.jpg", alt: "Comentario de cliente 3" },
+  { src: "/img/test4.jpg", alt: "Comentario de cliente 4" },
+];
+
+const Testimonios = () => {
+  return (
+    <section className="bg-black text-white py-12 px-4 text-center">
+      <h2 className="text-4xl md:text-5xl font-bebas mb-6 leading-tight text-white drop-shadow-[1px_1px_2px_#fff]">Testimonios</h2>
+      <div className="flex flex-wrap justify-center gap-8">
+        {testimonios.map((testimonio, index) => (
+          <div
+            key={index}
+            className="bg-white rounded-2xl shadow-lg overflow-hidden max-w-xs transform transition duration-300 ease-in-out hover:scale-105"
+          >
+            <img
+              src={testimonio.src}
+              alt={testimonio.alt}
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
 
 export default Testimonios;
