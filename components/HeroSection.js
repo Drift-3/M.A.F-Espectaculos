@@ -1,14 +1,14 @@
 const HeroSection = () => {
   return (
     <section className="relative h-screen w-full">
-      {/* Imagen de fondo ligeramente desplazada hacia arriba */}
+      {/* Imagen de fondo  */}
       <img
         src="/img/portada.jpeg"
         alt="Portada La Sensación Orquesta"
         className="absolute inset-0 object-cover w-full h-full translate-y-[-40px]"
       />
 
-      {/* Contenido principal: título y botón */}
+      {/* Contenido principal*/}
       <div className="relative z-10 flex items-start justify-end h-full bg-black/60 text-white px-75 py-50 text-right">
         <div>
           <h1 className="text-5xl md:text-7xl font-bebas mb-6 leading-tight text-white drop-shadow-[1px_1px_2px_#fff]">

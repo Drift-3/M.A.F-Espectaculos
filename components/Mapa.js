@@ -21,7 +21,7 @@ const lugares = [
 
 const Mapa = () => {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: "TU_API_KEY_AQUI", // 🔑 Reemplaza esto con tu API Key real
+    googleMapsApiKey: "API_KEY", 
   });
 
   if (!isLoaded) return <div className="text-center py-8 text-white">Cargando mapa...</div>;
