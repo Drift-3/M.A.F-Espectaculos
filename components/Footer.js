@@ -23,7 +23,7 @@ const Footer = () => (
     <FaInstagram />
   </a>
   <a
-    href="https://www.youtube.com/tu-canal"
+    href="https://youtube.com/@lasensacionorquestas?si=ChdeW7nbOKi7hYli"
     aria-label="YouTube"
     className="hover:text-red-500"
     target="_blank"

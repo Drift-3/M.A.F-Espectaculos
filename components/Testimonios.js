@@ -1,8 +1,8 @@
 const testimonios = [
-  { src: "/img/test1.jpg", alt: "Comentario de cliente 1" },
-  { src: "/img/test2.jpg", alt: "Comentario de cliente 2" },
-  { src: "/img/test3.jpg", alt: "Comentario de cliente 3" },
-  { src: "/img/test4.jpg", alt: "Comentario de cliente 4" },
+  { src: "/img/test1.jpg", alt: " cliente 1" },
+  { src: "/img/test2.jpg", alt: " cliente 2" },
+  { src: "/img/test3.jpg", alt: " cliente 3" },
+  { src: "/img/test4.jpg", alt: " cliente 4" },
 ];
 
 const Testimonios = () => {

@@ -8,25 +8,66 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const integrantes = [
   {
-    nombre: "Juan Pérez",
-    rol: "Vocalista",
-    foto: "/img/logoMAF.jpg",
+    nombre: "Jose Carlos Rojas",
+    rol: "Cantante",
+    foto: "/img/Cantante.jpg",
   },
   {
-    nombre: "Ana López",
+    nombre: "Victor Cruz",
     rol: "Baterista",
-    foto: "/img/logoMAF.jpg",
+    foto: "/img/baterista.jpg",
   },
   {
-    nombre: "Luis Ríos",
+    nombre: "Raymundo Tellez",
     rol: "Saxofonista",
-    foto: "/img/logoMAF.jpg",
+    foto: "/img/saxofonista1.jpg",
   },
   {
-    nombre: "María Díaz",
-    rol: "Tecladista",
-    foto: "/img/logoMAF.jpg",
+    nombre: "Majo Macario",
+    rol: "Saxofonista 2",
+    foto: "/img/sax2.jpg",
   },
+   {
+    nombre: "Katy Cruz",
+    rol: "Cantante",
+    foto: "/img/voz2.jpg",
+  },
+   {
+    nombre: "Hugo Rodriguez",
+    rol: "Trombon",
+    foto: "/img/Hugo.jpg",
+  },
+     {
+    nombre: "Carmen Yareli ",
+    rol: "Cantante",
+    foto: "/img/voz1.jpg",
+  },
+  {
+    nombre: "David Cruz ",
+    rol: "Timbal",
+    foto: "/img/timbal.jpg",
+  },
+  {
+    nombre: "Mario Flores ",
+    rol: "Trompeta",
+    foto: "/img/trompeta.jpg",
+  },
+  {
+    nombre: "Gabriel Rodriguez",
+    rol: "Bajo",
+    foto: "/img/guitarra.jpg",
+  },
+  {
+    nombre: "Francisco Rojas",
+    rol: "Congas",
+    foto: "/img/congas.jpg",
+  },
+  {
+    nombre: "Ricardo Vidal",
+    rol: "Piano",
+    foto: "/img/piano.jpg",
+  },
+  
 ];
 
 const Conocenos = () => {
